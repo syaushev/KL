@@ -1,0 +1,147 @@
+body{
+	font-family: 'Lora';
+	
+background: linear-gradient(180deg,   #c3eef6 75%,#00b9da );
+}
+
+.header{
+	background-color: white;
+
+   
+}
+ul,li{
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.menu{
+
+}
+.logo{
+	margin-top: 10px;
+	margin-left: 85px;
+	padding-bottom: 10px;
+
+
+}
+
+.menu__item{
+	margin: 0 17px;
+	text-decoration: none;
+	margin-top: 52px;
+	padding-bottom: 10px;
+}
+
+.menu__item a{
+	font-size: 18px;
+	font-family: 'Lora';
+	color: #000;
+	text-decoration: none;
+	white-space: nowrap;
+	
+
+
+
+}
+
+.backimage{
+	background-image: url("background_1.png");
+	background-repeat: no-repeat;
+	background-position:  center;
+	background-size: cover;
+	height: 100vh;
+	
+	
+	
+}
+
+.slogan{
+	margin-top: 130px;
+	font-family: 'Lora';
+	font-size: 47px;
+	margin-left: 85px;
+	line-height: 1.2;
+}
+
+.slogan2{
+
+	margin-top: 24px;
+	font-family: 'Lora';
+	font-size: 23px;
+	margin-left: 85px;
+	line-height: 1.2;
+
+}
+
+.our_services{
+	font-size: 46px;
+	text-align: center;
+}
+.megevanie__image{
+	padding-top: 177px;
+}
+.megevanie__text{
+	padding-top: 97px;
+	font-size: 21px;
+	
+}
+.megevanie__title{
+	padding-bottom: 30px;
+	font-family: 'Lora';
+	font-style: italic;
+	font-size: 48px;
+}
+.postanovka__title{
+	font-size: 32px;
+	font-family: 'Lora';
+	font-style: italic;
+}
+.postanovka__image{
+	padding-top: 137px;
+	text-align: center;
+}
+.sign{
+	text-align: right;
+	padding-top: 117px;
+	font-size: 32px;
+
+}
+.znaki{
+	background-color: white;
+}
+.znaki_sign{
+	font-size: 64px;
+}
+.znaki__row{
+	margin-top: 30px;
+	padding-top: 94px;
+	padding-bottom: 54px
+
+}
+.znaki__text{
+	font-size: 20px;
+
+}
+.form{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.form__title{
+	font-style: bold;
+	font-size: 37px;
+}
+
+.footer{
+		background-image: url("background_1_0029_.png");
+	background-repeat: no-repeat;
+	background-position:  center;
+	background-size: cover;
+	height: 100vh;
+}
+.button__zakaz{
+	margin-top: 20px;
+
+}
+
+
