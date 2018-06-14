@@ -2,25 +2,27 @@ package com.app.entity;
 
 import org.springframework.stereotype.Repository;
 
+import java.util.Date;
+
 
 public class User {
     private Long id;
     private String name;
     private  String email;
     private String phone;
+    private Date date;
+
 
     public User() {
     }
 
 
-    @Override
-    public String toString() {
-        return "User{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", email='" + email + '\'' +
-                ", phone='" + phone + '\'' +
-                '}';
+    public Date getDate() {
+        return date;
+    }
+
+    public void setDate(Date date) {
+        this.date = date;
     }
 
     public Long getId() {

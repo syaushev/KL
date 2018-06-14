@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Sergey
-  Date: 12.06.2018
-  Time: 22:39
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
@@ -41,7 +34,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto ">
             <li class="nav-item active">
-                <a href="#" class="nav-link" data-toggle="modal" data-target="#loginModal">Вход</a>
+                <a href="/login" class="nav-link">Вход</a>
             </li>
             <li class="nav-item ">
                 <a href="#our_services" class="nav-link button_form">Услуги</a>
@@ -57,37 +50,6 @@
     </div>
 </nav>
 
-<!-- Modal                                                  -->
-<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Вход</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <form >
-                    <div class="form-group">
-                        <label for="Username">Username:</label>
-                        <input type="text" class="form-control" id="username">
-                    </div>
-                    <div class="form-group">
-                        <label for="password">Password:</label>
-                        <input type="password" class="form-control" id="password">
-                    </div>
-
-                    <div class="modal-footer">
-                        <button type="submit" class="btn btn-primary ">Войти</button>
-
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Отмена</button></div>
-                </form>
-            </div>
-
-        </div>
-    </div>
-</div>
 
 
 

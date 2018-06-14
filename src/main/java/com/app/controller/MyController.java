@@ -49,6 +49,13 @@ public class MyController {
         return "login";
     }
 
+    @PostMapping("/login")
+    public String login(Model model){
+        return "redirect:/welcome";
+    }
+
+
+
     @GetMapping("admin")
     public String admin() {
         return "adminPage";

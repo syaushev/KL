@@ -22,6 +22,7 @@ Welcome page
         <th>Name</th>
         <th>Email</th>
         <th>Phone</th>
+        <th>Date</th>
     </tr>
     <c:forEach var="user" items="${userList}">
         <tr>
@@ -29,6 +30,7 @@ Welcome page
             <td>${user.name}</td>
             <td>${user.email}</td>
             <td>${user.phone}</td>
+            <td>${user.date}</td>
         </tr>
     </c:forEach>
 </table>

@@ -19,12 +19,12 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers("/admin","/welcome","/").hasRole("ADMIN")
                 .antMatchers("/welcome","/").hasRole("USER").anyRequest().authenticated()
 
-        .and()
-        .formLogin().loginPage("/login").permitAll().and()
+                .and()
+                .formLogin().loginPage("/login").permitAll().and()
                 .logout()
 
                 .logoutSuccessUrl("/")
-        .and().csrf().disable();
+                .and().csrf().disable();
     }
 
     @Override
